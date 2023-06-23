@@ -27,7 +27,7 @@ c = os.getenv('CC')
 SECRET_KEY = c
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -82,18 +82,18 @@ WSGI_APPLICATION = 'leonesa.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 # VAR_DB
-MYPASS = os.getenv('MYPASS_VAR')
-MYHOST = os.getenv('MYHOST_VAR')
-MYPORT = os.getenv('MYPORT_VAR')
+# MYPASS = os.getenv('MYPASS_VAR')
+# MYHOST = os.getenv('MYHOST_VAR')
+# MYPORT = os.getenv('MYPORT_VAR')
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': MYPASS,
-        'HOST': MYHOST,
-        'PORT': MYPORT,
+        'PASSWORD': os.getenv('MYPASS_VAR'),
+        'HOST': os.getenv('MYHOST_VAR'),
+        'PORT': os.getenv('MYPORT_VAR'),
     }
 }
 
