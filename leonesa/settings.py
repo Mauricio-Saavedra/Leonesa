@@ -81,10 +81,19 @@ WSGI_APPLICATION = 'leonesa.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# VAR_DB
+MYPASS = os.getenv('MYPASS_VAR')
+MYHOST = os.getenv('MYHOST_VAR')
+MYPORT = os.getenv('MYPORT_VAR')
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': MYPASS,
+        'HOST': MYHOST,
+        'PORT': MYPORT,
     }
 }
 
