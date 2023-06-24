@@ -25,4 +25,4 @@ Pero si quieres descargarla y ver el código eso lo puedes hacer clonando el rep
 
 ## Estado del proyecto
 
-Fianlizado, ya no creo modificarle algo más, pero si llegan a presentarse errores _a posteriori_ con mucho gusto los revisaré.
+Finalizado, ya no creo modificarle algo más, pero si llegan a presentarse errores _a posteriori_ con mucho gusto los revisaré.
