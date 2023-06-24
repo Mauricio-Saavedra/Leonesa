@@ -12,10 +12,15 @@ Y por último me interesaba el desplegar la página web a traves de un servicio 
 Pero si quieres descargarla y ver el código eso lo puedes hacer clonando el repositorio o descargandote los archivos:
 
   1- Posteriormente vas a ingresar a la carpeta desde la terminal y crearas un entornoo virtual de Python.
+
   2- Una vez que tienes el entorno virtual creado ejecutarás `pip install -r requirements.txt`.
+  
   3- Ya con los requerimientos podrás ingresar a la carpeta `leonesa`.
+  
   4- Ahora ingresa el comando `py manage.py runserver`.
+  
   5- Ingresa a `Starting development server at http://` clicando en el apartado de _http://numeros_, lo cual es tu servidor local.
+  
   6- Eso abrirá una página en tu navegador predeterminado, ahora explora la página.
 
 ## Estado del proyecto
