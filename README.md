@@ -9,9 +9,8 @@ Y por último me interesaba el desplegar la página web a traves de un servicio 
 
 ## Instrucciones de instalación
 
-Hay un vídeo de su funcionamiento aquí: 
-
 Pero si quieres descargarla y ver el código eso lo puedes hacer clonando el repositorio o descargandote los archivos:
+
   1- Posteriormente vas a ingresar a la carpeta desde la terminal y crearas un entornoo virtual de Python.
   2- Una vez que tienes el entorno virtual creado ejecutarás `pip install -r requirements.txt`.
   3- Ya con los requerimientos podrás ingresar a la carpeta `leonesa`.
